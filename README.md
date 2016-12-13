@@ -16,10 +16,10 @@ Then instantiate and embed it at the top of your PHP page.
 Create an object and simply adjust it as you like:<br>
 <pre>
 	<code>
-		require_once "unPOSTer.class.php";
-		$unpost = new unPOSTer();
-		$unpost->active(1);
-		$unpost->unPOST();
+	require_once "unPOSTer.class.php";
+	$unpost = new unPOSTer();
+	$unpost->active(1);
+	$unpost->unPOST();
 	</code>
 </pre>
 <br>
@@ -32,14 +32,14 @@ lets you decide whether your POST should remain after page refresh or not.<br>
 **unPOSTer::unPOST()**<br>
 executes the API.<br>
 <br>
+
 If you encounter any bugs, open an issue.<br>
-
+<br>
+<br>
 Enjoy, 
-
 Thielicious
 <br>
 <br>
-
 http://thielicious.github.io
 
 	

@@ -58,13 +58,6 @@ executes the API.
 <br>
 <br>
 
-##EXAMPLES (***code.runnable.io***)
-
-» [Customer Enquiry](#)<br>
-» [Customer Enquiry using AJAX](#)<br>
-» [Administrator Newsletter](#)
-<br>
-<br>
-If you encounter any bugs, feel free to open an issue.<br>
+**If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thanks.<br>
 ---
 [thielicious.github.io] (http://thielicious.github.io)

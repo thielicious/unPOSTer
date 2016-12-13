@@ -13,9 +13,9 @@ Download this script from GitHub here or use your CLI and enter the following:<b
 Then instantiate and embed it at the top of your PHP page.
 
 ##USAGE
-Create an object and simply adjust it as you like:
+Create an object and simply adjust it as you like:<br>
 <code>
-	require_once "unPOSTer.class.php";	
+	require_once "unPOSTer.class.php";
 	$unpost = new unPOSTer();
 	$unpost->active(1);
 	$unpost->unPOST();
@@ -32,7 +32,7 @@ Create an object and simply adjust it as you like:
 
 	If you encounter any bugs, open an issue, thanks.
 <br>
-
+<br>
 
 http://thielicious.github.io
 

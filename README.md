@@ -15,24 +15,28 @@ Then instantiate and embed it at the top of your PHP page.
 ##USAGE
 Create an object and simply adjust it as you like:<br>
 <pre>
-<code>
-	require_once "unPOSTer.class.php";
-	$unpost = new unPOSTer();
-	$unpost->active(1);
-	$unpost->unPOST();
-</code>
+	<code>
+		require_once "unPOSTer.class.php";
+		$unpost = new unPOSTer();
+		$unpost->active(1);
+		$unpost->unPOST();
+	</code>
 </pre>
 <br>
 
 ###Methods
-	**unPOSTer::active(1 || 0)**<br>
-		parameter '1' activates the API.
-	**unPOSTer::keepPOST(1 || 0)**<br>
-		lets you decide whether your POST should remain after page refresh or not.
-	**unPOSTer::unPOST()**<br>
-		executes the API.
+**unPOSTer::active(1 || 0)**<br>
+parameter '1' activates the API.
+**unPOSTer::keepPOST(1 || 0)**<br>
+lets you decide whether your POST should remain after page refresh or not.
+**unPOSTer::unPOST()**<br>
+executes the API.
+<br>
+If you encounter any bugs, open an issue.<br>
 
-	If you encounter any bugs, open an issue, thanks.
+Enjoy, 
+
+Thielicious
 <br>
 <br>
 

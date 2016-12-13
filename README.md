@@ -1,5 +1,5 @@
 #unPOSTer
-Tiny PHP class which prevents reposting on page refresh
+Tiny PHP API which prevents reposting on page refresh
 <br><br>
 
 ##INTRODUCTION
@@ -15,8 +15,7 @@ Then instantiate and embed it at the top of your PHP page.
 ##USAGE
 Create an object and simply adjust it as you like:
 <code>
-	require_once "unPOSTer.class.php";
-	
+	require_once "unPOSTer.class.php";	
 	$unpost = new unPOSTer();
 	$unpost->active(1);
 	$unpost->unPOST();

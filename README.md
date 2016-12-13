@@ -54,10 +54,10 @@ parameter '1' activates the API.<br>
 **unPOSTer::keepPOST(1 || 0)**<br>
 lets you decide whether your POST should remain after page refresh or not.<br>
 **unPOSTer::unPOST()**<br>
-executes the API.
-<br>
+executes the API.<br>
 <br>
 
-####If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thanks.<br>
+
+####If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.<br>
 ---
 [thielicious.github.io] (http://thielicious.github.io)

@@ -26,11 +26,11 @@ Create an object and simply adjust it as you like:<br>
 
 ###Methods
 **unPOSTer::active(1 || 0)**<br>
-parameter '1' activates the API.
+parameter '1' activates the API.<br>
 **unPOSTer::keepPOST(1 || 0)**<br>
-lets you decide whether your POST should remain after page refresh or not.
+lets you decide whether your POST should remain after page refresh or not.<br>
 **unPOSTer::unPOST()**<br>
-executes the API.
+executes the API.<br>
 <br>
 If you encounter any bugs, open an issue.<br>
 

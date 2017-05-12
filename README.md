@@ -41,9 +41,11 @@ Create an object and simply adjust it as you like:<br>
 <pre>
 	<code>
 	require_once "unPOSTer.class.php";
-	$unpost = new unPOSTer();
-	$unpost->active(1);
+	$unpost = new unPOSTer("KEEP_POST");
 	$unpost->unPOST();
+	
+	$unpost->retrieve("first_name");
+	$unpost->retrieve("last_name");
 	</code>
 </pre>
 <br>

@@ -1,13 +1,13 @@
-#unPOSTer
+<h1>unPOSTer</h1>
 
 Tiny PHP API which prevents reposting on page refresh
 
-#### [Documentation](http:thielicious.github.io/#unposter_doc) | [Downloads](http:thielicious.github.io/#unposter_dls) | [Examples](http:thielicious.github.io/#unposter_demo) | [Licence](http:thielicious.github.io/#unposter_lic) ####
+<strong>[Documentation](http:thielicious.github.io/#unposter_doc) | [Downloads](http:thielicious.github.io/#unposter_dls) | [Examples](http:thielicious.github.io/#unposter_demo) | [Licence](http:thielicious.github.io/#unposter_lic)</strong>
 
 ---
 <br>
 
-##INTRODUCTION
+<h3>INTRODUCTION</h3>
 
 Built with PHP (7.09)<br>
 **unPOSTer** is a tiny API which prevents form reposting on page refresh. It basically stops you from encountering a re-POST alert prompt. Moreover, it comes with 3 methods that makes it a lil' adjustable - for example whether you would like to keep posted data after refresh or not.
@@ -15,7 +15,7 @@ Built with PHP (7.09)<br>
 <br>
 
 
-##SETUP INFORMATION
+<h3>SETUP INFORMATION</h3>
 
 <SETUP TEXT>
 <br>
@@ -26,16 +26,16 @@ git clone https://github.com/thielicious/unPOSTer.git
 </code><br>
 <br>
 Or click below to choose your download option:<br>
-» [Download unPOSTer](http://thielicious.github.io/#unposter_dls)
+» <a href="http://thielicious.github.io/#unposter_dls">Download unPOSTer</a>
 <br>
 <br>
 Then instantiate and embed it at the top of your PHP page.<br>
-For a detailed installation click [here](http://thielicious.github.io/#unposter_doc).
+For a detailed installation click <a href="http://thielicious.github.io/#unposter_doc">here</a>.
 <br>
 <br>
 
 
-##USAGE
+<h3>USAGE</h3>
 
 Create an object and simply adjust it as you like:<br>
 <pre>
@@ -50,7 +50,7 @@ Create an object and simply adjust it as you like:<br>
 </pre>
 <br>
 
-###Methods
+<h3>Methods</h3>
 **unPOSTer::active(1 || 0)**<br>
 parameter '1' activates the API.<br>
 **unPOSTer::keepPOST(1 || 0)**<br>
@@ -60,6 +60,6 @@ executes the API.<br>
 <br>
 
 
-####If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.<br>
+<strong>If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.</strong><br>
 ---
-[thielicious.github.io] (http://thielicious.github.io)
+<a href="http://thielicious.github.io">thielicious.github.io</a>

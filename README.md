@@ -10,7 +10,7 @@ Tiny PHP API which prevents reposting on page refresh
 <h3>INTRODUCTION</h3>
 
 Built with PHP (7.09)<br>
-**unPOSTer** is a tiny API which prevents form reposting on page refresh. It basically stops you from encountering a re-POST alert prompt. Moreover, it comes with 3 methods that makes it a lil' adjustable - for example whether you would like to keep posted data after refresh or not.
+**unPOSTer** is a tiny API which prevents form reposting on page refresh. It basically stops you from encountering a re-POST alert prompt.
 <br>
 <br>
 

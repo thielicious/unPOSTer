@@ -43,21 +43,19 @@ Create an object and simply adjust it as you like:<br>
 	require_once "unPOSTer.class.php";
 	$unpost = new unPOSTer("KEEP_POST");
 	$unpost->unPOST();
-	
-	$unpost->retrieve("first_name");
-	$unpost->retrieve("last_name");
 	</code>
 </pre>
 <br>
 
 <h3>Methods</h3>
-**unPOSTer::active(1 || 0)**<br>
-parameter '1' activates the API.<br>
-**unPOSTer::keepPOST(1 || 0)**<br>
-lets you decide whether your POST should remain after page refresh or not.<br>
-**unPOSTer::unPOST()**<br>
-executes the API.<br>
+<strong>unPOSTer::unPost()</strong><br>
+» assigns POST data to the session value and sends it to the header as GET request.<br>
+<strong>unPOSTer::retrieve("<POST_data>")</strong><br>
+» retrieves the session value which actually contains POST data.<br>
+<strong>unPOSTer::reset()</strong><br>
+optional: if you don't want to keep the data, it will clear the session value.<br>
 <br>
+A Demo has been added to this repository.
 
 
 <strong>If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.</strong><br>

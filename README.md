@@ -58,6 +58,6 @@ optional: if you don't want to keep the data, it will clear the session value.<b
 A Demo has been added to this repository.
 
 
-<strong>If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.</strong><br>
+<strong><small>If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.</small></strong><br>
 ---
 <a href="http://thielicious.github.io">thielicious.github.io</a>

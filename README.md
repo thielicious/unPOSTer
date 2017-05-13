@@ -5,36 +5,33 @@ Tiny PHP API which prevents reposting on page refresh
 <strong>[Documentation](http:thielicious.github.io/#unposter_doc) | [Downloads](http:thielicious.github.io/#unposter_dls) | [Examples](http:thielicious.github.io/#unposter_demo) | [Licence](http:thielicious.github.io/#unposter_lic)</strong>
 
 ---
-<br>
+
 
 <h3>INTRODUCTION</h3>
 
-Built with PHP (7.09)<br>
+Built with PHP (7.09)
 <strong>unPOSTer</strong> is a tiny API which prevents form reposting on page refresh. It basically stops you from encountering a re-POST alert prompt.
-<br>
-<br>
+
 
 
 <h3>SETUP INFORMATION</h3>
 
-Use your CLI and enter the following to clone:<br>
+Use your CLI and enter the following to clone:
 <code>
 git clone https://github.com/thielicious/unPOSTer.git
-</code><br>
-<br>
-Or click below to choose your download option:<br>
+</code>
+
+Or click below to choose your download option:
 » <a href="http://thielicious.github.io/#unposter_dls">Download unPOSTer</a>
-<br>
-<br>
+
 Then instantiate and embed it at the top of your PHP page.<br>
 For a detailed installation click <a href="http://thielicious.github.io/#unposter_doc">here</a>.
-<br>
-<br>
+
 
 
 <h3>USAGE</h3>
 
-Create an object and simply adjust it as you like:<br>
+Create an object and simply adjust it as you like:
 <pre>
 	<code>
 	require_once "unPOSTer.class.php";
@@ -42,7 +39,8 @@ Create an object and simply adjust it as you like:<br>
 	$unpost->unPOST();
 	</code>
 </pre>
-<br>
+
+
 
 <h3>Methods</h3>
 <strong>unPOSTer::unPost()</strong><br>
@@ -54,11 +52,11 @@ Create an object and simply adjust it as you like:<br>
 <strong>unPOSTer::reset()</strong><br>
 optional: if you don't want to keep the data, it will clear the session value.<br>
 
-<br>
+
 A Demo has been added to this repository.
-<br>
 
 
-If you encounter any bugs, feel free to open up an <a href="https://github.com/thielicious/unPOSTer/issues">issue</a>, thank you.<br>
+
+If you encounter any bugs, feel free to open up an <a href="https://github.com/thielicious/unPOSTer/issues">issue</a>, thank you.
 ---
 <a href="http://thielicious.github.io">thielicious.github.io</a>

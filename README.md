@@ -33,20 +33,21 @@ $unpost = new unPOSTer("KEEP_POST");
 $unpost->unPOST();
 ```
 
-#### Methods
-- **unPOSTer::unPost()**<br>
+### Methods
+**unPOSTer::unPost()**<br>
 » assigns POST data to the session value and sends it to the header as GET request.
 
-- **unPOSTer::retrieve("&lt;POST_data&gt;")**<br>
+**unPOSTer::retrieve("&lt;POST_data&gt;")**<br>
 » retrieves the session value which actually contains POST data.
 
-- **unPOSTer::reset()**<br>
+**unPOSTer::reset()**<br>
 » optional: if you don't want to keep the data, it will clear the session value.
+
 
 
 :new: A Demo has been added to this repository.
 
-###### If you encounter any bugs, feel free to open up an <a href="https://github.com/thielicious/unPOSTer/issues">issue</a>, thank you.
+###### If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.
 
 ---
-<a href="http://thielicious.github.io">thielicious.github.io</a>
+[thielicious.github.io](http://thielicious.github.io)

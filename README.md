@@ -22,7 +22,7 @@ Or click below to choose your download option:<br>
 » **[Download unPOSTer](http://thielicious.github.io/#unposter_dls)**
 
 Then instantiate and embed it at the top of your PHP page.<br>
-For a detailed installation click [here](http://thielicious.github.io/#unposter_doc) here.
+For a detailed installation click **[here](http://thielicious.github.io/#unposter_doc)** here.
 
 
 ## USAGE
@@ -47,9 +47,9 @@ $unpost->unPOST();
 <br>
 <br>
 
-:new: A [Demo](https://github.com/thielicious/unPOSTer/tree/master/demo) has been added to this repository.
+:new: A **[Demo](https://github.com/thielicious/unPOSTer/tree/master/demo)** has been added to this repository.
 
-###### If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.
+###### If you encounter any bugs, feel free to open up an **[issue](https://github.com/thielicious/unPOSTer/issues)**, thank you.
 
 ---
-[thielicious.github.io](http://thielicious.github.io)
+**[thielicious.github.io](http://thielicious.github.io)**

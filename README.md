@@ -12,19 +12,16 @@ Built with PHP (7.09)<br>
 **unPOSTer** is a tiny API which prevents form reposting on page refresh. It basically stops you from encountering a re-POST alert prompt.
 
 
-
 <h3>SETUP INFORMATION</h3>
 
 Use your CLI and enter the following to clone:<br>
 `git clone https://github.com/thielicious/unPOSTer.git`
 
-Or click below to choose your download option:
-
-» <a href="http://thielicious.github.io/#unposter_dls">Download unPOSTer</a>
+Or click below to choose your download option:<br>
+» [Download unPOSTer](http://thielicious.github.io/#unposter_dls)
 
 Then instantiate and embed it at the top of your PHP page.
 For a detailed installation click <a href="http://thielicious.github.io/#unposter_doc">here</a>.
-
 
 
 <h3>USAGE</h3>

@@ -15,11 +15,8 @@ Built with PHP (7.09)<br>
 
 <h3>SETUP INFORMATION</h3>
 
-Use your CLI and enter the following to clone:
-
-<code>
-git clone https://github.com/thielicious/unPOSTer.git
-</code>
+Use your CLI and enter the following to clone:<br>
+`git clone https://github.com/thielicious/unPOSTer.git`
 
 Or click below to choose your download option:
 

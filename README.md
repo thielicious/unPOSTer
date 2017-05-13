@@ -17,9 +17,6 @@ Built with PHP (7.09)<br>
 
 <h3>SETUP INFORMATION</h3>
 
-<SETUP TEXT>
-<br>
-<br>
 Use your CLI and enter the following to clone:<br>
 <code>
 git clone https://github.com/thielicious/unPOSTer.git
@@ -50,10 +47,13 @@ Create an object and simply adjust it as you like:<br>
 <h3>Methods</h3>
 <strong>unPOSTer::unPost()</strong><br>
 » assigns POST data to the session value and sends it to the header as GET request.<br>
+
 <strong>unPOSTer::retrieve("&lt;POST_data&gt;")</strong><br>
 » retrieves the session value which actually contains POST data.<br>
+
 <strong>unPOSTer::reset()</strong><br>
 optional: if you don't want to keep the data, it will clear the session value.<br>
+
 <br>
 A Demo has been added to this repository.
 <br>

@@ -50,7 +50,7 @@ Create an object and simply adjust it as you like:<br>
 <h3>Methods</h3>
 <strong>unPOSTer::unPost()</strong><br>
 » assigns POST data to the session value and sends it to the header as GET request.<br>
-<strong>unPOSTer::retrieve("<POST_data>")</strong><br>
+<strong>unPOSTer::retrieve("&lt;POST_data&gt;")</strong><br>
 » retrieves the session value which actually contains POST data.<br>
 <strong>unPOSTer::reset()</strong><br>
 optional: if you don't want to keep the data, it will clear the session value.<br>

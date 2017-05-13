@@ -44,7 +44,7 @@ $unpost->unPOST();
 **unPOSTer::reset()**<br>
 » optional: if you don't want to keep the data, it will clear the session value.
 
-<br>
+<br>:ka:
 <br>
 
 :new: A **[Demo](https://github.com/thielicious/unPOSTer/tree/master/demo)** has been added to this repository.

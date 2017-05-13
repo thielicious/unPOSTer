@@ -1,16 +1,15 @@
-<h1>unPOSTer</h1>
+# unPOSTer
 
-Tiny PHP API which prevents reposting on page refresh
+###### Tiny PHP API which prevents reposting on page refresh
 
-<strong>[Documentation](http:thielicious.github.io/#unposter_doc) | [Downloads](http:thielicious.github.io/#unposter_dls) | [Examples](http:thielicious.github.io/#unposter_demo) | [Licence](http:thielicious.github.io/#unposter_lic)</strong>
-
+##### [Documentation](http:thielicious.github.io/#unposter_doc) | [Downloads](http:thielicious.github.io/#unposter_dls) | [Examples](http:thielicious.github.io/#unposter_demo) | [Licence](http:thielicious.github.io/#unposter_lic)
 ---
 
 
-<h3>INTRODUCTION</h3>
+## INTRODUCTION
 
 Built with PHP (7.09)
-<strong>unPOSTer</strong> is a tiny API which prevents form reposting on page refresh. It basically stops you from encountering a re-POST alert prompt.
+** unPOSTer ** is a tiny API which prevents form reposting on page refresh. It basically stops you from encountering a re-POST alert prompt.
 
 
 

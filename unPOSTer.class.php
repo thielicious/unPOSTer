@@ -47,10 +47,13 @@
 		
 		public function retrieve($data) {
 			if (isset($_SESSION[$this->post])) {
-				return $_SESSION[$this->post][$data];
-			} else {
-				return null;
-			}
+				$posts = @$_SESSION[$this->post][$data];
+				if (isset($posts)) {
+					return $posts;
+				} else {
+					return null;
+				}
+			} 
 		}
 		
 		public function reset() {

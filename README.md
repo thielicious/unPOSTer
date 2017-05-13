@@ -34,24 +34,22 @@ For a detailed installation click <a href="http://thielicious.github.io/#unposte
 <h3>USAGE</h3>
 
 Create an object and simply adjust it as you like:
-<pre>
-	<code>
+```
 require_once "unPOSTer.class.php";
 $unpost = new unPOSTer("KEEP_POST");
 $unpost->unPOST();
-	</code>
-</pre>
+```
 
 
 
-<h3>Methods</h3>
-- <strong>unPOSTer::unPost()</strong>
+## Methods
+- ## unPOSTer::unPost()
 » assigns POST data to the session value and sends it to the header as GET request.
 
-- <strong>unPOSTer::retrieve("&lt;POST_data&gt;")</strong>
+- ## unPOSTer::retrieve("&lt;POST_data&gt;")
 » retrieves the session value which actually contains POST data.
 
-- <strong>unPOSTer::reset()</strong>
+- ## unPOSTer::reset()
 optional: if you don't want to keep the data, it will clear the session value.
 
 

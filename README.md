@@ -55,9 +55,9 @@ Create an object and simply adjust it as you like:<br>
 <strong>unPOSTer::reset()</strong><br>
 optional: if you don't want to keep the data, it will clear the session value.<br>
 <br>
-A Demo has been added to this repository.
+A Demo has been added to this repository.<br>
 
 
-<strong><small>If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.</small></strong><br>
+###<strong>If you encounter any bugs, feel free to open up an <a href="https://github.com/thielicious/unPOSTer/issues">issue</a>, thank you.</strong><br>
 ---
 <a href="http://thielicious.github.io">thielicious.github.io</a>

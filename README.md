@@ -12,7 +12,7 @@ Built with PHP (7.09)<br>
 **unPOSTer** is a tiny API which prevents form reposting on page refresh. It basically stops you from encountering a re-POST alert prompt.
 
 
-<h3>SETUP INFORMATION</h3>
+## SETUP INFORMATION
 
 Use your CLI and enter the following to clone:<br>
 `git clone https://github.com/thielicious/unPOSTer.git`
@@ -24,7 +24,7 @@ Then instantiate and embed it at the top of your PHP page.<br>
 For a detailed installation click [here](http://thielicious.github.io/#unposter_doc) here.
 
 
-<h3>USAGE</h3>
+## USAGE
 
 Create an object and simply adjust it as you like:
 ```
@@ -33,17 +33,15 @@ $unpost = new unPOSTer("KEEP_POST");
 $unpost->unPOST();
 ```
 
-
-
-## Methods
-- ## unPOSTer::unPost()
+#### Methods
+- **unPOSTer::unPost()**
 » assigns POST data to the session value and sends it to the header as GET request.
 
-- ## unPOSTer::retrieve("&lt;POST_data&gt;")
+- **unPOSTer::retrieve("&lt;POST_data&gt;")**
 » retrieves the session value which actually contains POST data.
 
-- ## unPOSTer::reset()
-optional: if you don't want to keep the data, it will clear the session value.
+- **unPOSTer::reset()**
+» optional: if you don't want to keep the data, it will clear the session value.
 
 
 :new: A Demo has been added to this repository.

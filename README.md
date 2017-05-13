@@ -27,12 +27,13 @@ For a detailed installation click **[here](http://thielicious.github.io/#unposte
 
 ## USAGE
 
-Create an object and simply adjust it as you like:
+Create an object :
 ```
 require_once "unPOSTer.class.php";
 $unpost = new unPOSTer("KEEP_POST");
 $unpost->unPOST();
 ```
+For a more detailed documentation visit me at [thielicious.github.io](http://thielicious.github.io/#unposter_doc)
 
 ### Methods
 **unPOSTer::unPost()**<br>

@@ -47,7 +47,7 @@ $unpost->unPOST();
 <br>
 <br>
 
-:new: A Demo has been added to this repository.
+:new: A [Demo](https://github.com/thielicious/unPOSTer/tree/master/demo) has been added to this repository.
 
 ###### If you encounter any bugs, feel free to open up an [issue](https://github.com/thielicious/unPOSTer/issues), thank you.
 

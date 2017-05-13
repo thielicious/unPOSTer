@@ -19,7 +19,7 @@ Use your CLI and enter the following to clone:<br>
 `git clone https://github.com/thielicious/unPOSTer.git`
 
 Or click below to choose your download option:<br>
-» [Download unPOSTer](http://thielicious.github.io/#unposter_dls)
+» **[Download unPOSTer](http://thielicious.github.io/#unposter_dls)**
 
 Then instantiate and embed it at the top of your PHP page.<br>
 For a detailed installation click [here](http://thielicious.github.io/#unposter_doc) here.

@@ -17,14 +17,16 @@ Built with PHP (7.09)
 <h3>SETUP INFORMATION</h3>
 
 Use your CLI and enter the following to clone:
+
 <code>
 git clone https://github.com/thielicious/unPOSTer.git
 </code>
 
 Or click below to choose your download option:
+
 » <a href="http://thielicious.github.io/#unposter_dls">Download unPOSTer</a>
 
-Then instantiate and embed it at the top of your PHP page.<br>
+Then instantiate and embed it at the top of your PHP page.
 For a detailed installation click <a href="http://thielicious.github.io/#unposter_doc">here</a>.
 
 
@@ -34,26 +36,26 @@ For a detailed installation click <a href="http://thielicious.github.io/#unposte
 Create an object and simply adjust it as you like:
 <pre>
 	<code>
-	require_once "unPOSTer.class.php";
-	$unpost = new unPOSTer("KEEP_POST");
-	$unpost->unPOST();
+require_once "unPOSTer.class.php";
+$unpost = new unPOSTer("KEEP_POST");
+$unpost->unPOST();
 	</code>
 </pre>
 
 
 
 <h3>Methods</h3>
-<strong>unPOSTer::unPost()</strong><br>
+- <strong>unPOSTer::unPost()</strong>
 » assigns POST data to the session value and sends it to the header as GET request.<br>
 
-<strong>unPOSTer::retrieve("&lt;POST_data&gt;")</strong><br>
+- <strong>unPOSTer::retrieve("&lt;POST_data&gt;")</strong><br>
 » retrieves the session value which actually contains POST data.<br>
 
-<strong>unPOSTer::reset()</strong><br>
+- <strong>unPOSTer::reset()</strong><br>
 optional: if you don't want to keep the data, it will clear the session value.<br>
 
 
-A Demo has been added to this repository.
+:new: A Demo has been added to this repository.
 
 
 

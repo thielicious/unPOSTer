@@ -46,13 +46,13 @@ $unpost->unPOST();
 
 <h3>Methods</h3>
 - <strong>unPOSTer::unPost()</strong>
-» assigns POST data to the session value and sends it to the header as GET request.<br>
+» assigns POST data to the session value and sends it to the header as GET request.
 
-- <strong>unPOSTer::retrieve("&lt;POST_data&gt;")</strong><br>
-» retrieves the session value which actually contains POST data.<br>
+- <strong>unPOSTer::retrieve("&lt;POST_data&gt;")</strong>
+» retrieves the session value which actually contains POST data.
 
-- <strong>unPOSTer::reset()</strong><br>
-optional: if you don't want to keep the data, it will clear the session value.<br>
+- <strong>unPOSTer::reset()</strong>
+optional: if you don't want to keep the data, it will clear the session value.
 
 
 :new: A Demo has been added to this repository.

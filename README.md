@@ -46,7 +46,7 @@ $unpost->unPOST();
 
 :new: A Demo has been added to this repository.
 
-If you encounter any bugs, feel free to open up an <a href="https://github.com/thielicious/unPOSTer/issues">issue</a>, thank you.
+###### If you encounter any bugs, feel free to open up an <a href="https://github.com/thielicious/unPOSTer/issues">issue</a>, thank you.
 
 ---
-###### <a href="http://thielicious.github.io">thielicious.github.io</a>
+<a href="http://thielicious.github.io">thielicious.github.io</a>

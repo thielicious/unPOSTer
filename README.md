@@ -40,7 +40,7 @@ For a more detailed documentation visit me at [thielicious.github.io](http://thi
 » assigns POST data to the session value and sends it to the header as GET request.
 
 **unPOSTer::retrieve("&lt;POST_data&gt;")**<br>
-» retrieves the session value which actually contains POST data.
+» retrieves the session value which actually contains POST data. This will show you the posted content and keeps it.
 
 **unPOSTer::reset()**<br>
 » optional: if you don't want to keep the data, it will clear the session value.

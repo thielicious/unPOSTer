@@ -20,7 +20,14 @@
 		private 
 			$post = "KEEP_POST";
 
-		public function __construct(string $name = null) {
+		function __construct(string $name = null) {
+			$this->chkSession();
+			$this->post = 
+				!is_null($name) ? 
+				$name : $this->post;
+		}
+
+		private function chkSession() {
 			if (version_compare(PHP_VERSION, "5.4.0") >= 0) {
 				if (session_status() == PHP_SESSION_NONE) {
 					session_start();
@@ -30,7 +37,6 @@
 					session_start();
 				}
 			}
-			$this->post = $name;
 		}
 		
 		public function unPost() {

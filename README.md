@@ -1,6 +1,6 @@
 # unPOSTer
 
-##### Tiny PHP API which prevents reposting on page refresh
+##### Tiny PHP API which prevents re-posting on page refresh
 
 ### [Documentation](http:thielicious.github.io/#unposter_doc) | [Downloads](http:thielicious.github.io/#unposter_dls) | [Examples](http:thielicious.github.io/#unposter_demo) | [Licence](http:thielicious.github.io/#unposter_lic)
 ---

@@ -1,6 +1,6 @@
 <?php
 /*
-	unPOSTer v0.9
+	unPOSTer v1.0
 	(c) 2016 Thielicious
 	thielicious.github.io
 	----------------------
